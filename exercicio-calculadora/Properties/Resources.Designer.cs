@@ -73,6 +73,16 @@ namespace exercicio_calculadora.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap empty_blackboard {
+            get {
+                object obj = ResourceManager.GetObject("empty-blackboard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap minimize_sign_6057365 {
             get {
                 object obj = ResourceManager.GetObject("minimize-sign_6057365", resourceCulture);

@@ -74,5 +74,10 @@ namespace exercicio_calculadora
 
             label3.Text = "Resultado: " + multi.ToString();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
