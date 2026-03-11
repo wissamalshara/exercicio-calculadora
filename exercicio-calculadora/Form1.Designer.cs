@@ -33,9 +33,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -50,7 +50,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(780, 459);
+            this.textBox2.Location = new System.Drawing.Point(773, 456);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 1;
@@ -86,16 +86,6 @@
             this.label3.Text = "Resultado:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(237, 597);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(101, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Divisão";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Red;
@@ -116,13 +106,26 @@
             this.button6.Text = "Limpar";
             this.button6.UseVisualStyleBackColor = false;
             // 
+            // button4
+            // 
+            this.button4.Image = global::exercicio_calculadora.Properties.Resources.divisionsign_81003;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button4.Location = new System.Drawing.Point(237, 554);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(101, 66);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "Divisão";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // button3
             // 
             this.button3.Image = global::exercicio_calculadora.Properties.Resources.x_3524382;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.Location = new System.Drawing.Point(237, 439);
+            this.button3.Location = new System.Drawing.Point(237, 424);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 57);
+            this.button3.Size = new System.Drawing.Size(101, 72);
             this.button3.TabIndex = 7;
             this.button3.Text = "Multiplicação";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -133,9 +136,9 @@
             // 
             this.button2.Image = global::exercicio_calculadora.Properties.Resources.minimize_sign_6057365;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(237, 302);
+            this.button2.Location = new System.Drawing.Point(237, 298);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 63);
+            this.button2.Size = new System.Drawing.Size(101, 67);
             this.button2.TabIndex = 6;
             this.button2.Text = "Subtração";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
