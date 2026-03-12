@@ -84,5 +84,17 @@ namespace exercicio_calculadora
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+           
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
